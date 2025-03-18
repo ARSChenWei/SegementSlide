@@ -14,12 +14,6 @@ class HomeViewController: BaseSegementSlideDefaultViewController {
     private var badges: [Int: BadgeType] = [:]
     
     init() {
-        
-        
-        
-        
-        
-        
         super.init(nibName: nil, bundle: nil)
         title = "Home"
         tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "tab_home")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "tab_home_sel")?.withRenderingMode(.alwaysOriginal))
